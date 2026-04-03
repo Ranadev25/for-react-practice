@@ -25,6 +25,9 @@ const App = () => {
         <Route path="/signin" element={<Register/>} />
       </Routes>
     </BrowserRouter>
+
+
+
   )
 }
 
