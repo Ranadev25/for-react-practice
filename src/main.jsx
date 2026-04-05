@@ -9,6 +9,7 @@ import About from "./About/About.jsx";
 import Text1 from "./component/Text1.jsx";
 import Text2 from "./component/Text2.jsx";
 import SingleUser from "./component/SingleUser.jsx";
+import Formilk from "./Home/Formilk.jsx";
 // import App from './App.jsx'
 
 const users2 = fetch("https://jsonplaceholder.typicode.com/users").then((res) =>
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/blog", element: <Blogs /> },
       { path: "/contract", element: <Contract /> },
+      { path: "/", element: <Formilk /> },
       {
         path: "about",
         element: <About />,
